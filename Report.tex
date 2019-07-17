@@ -1,0 +1,47 @@
+\documentclass[]{report}
+\usepackage{hyperref}
+
+% Title Page
+\title{Opening a Coffee place in Munich}
+\author{Mauricio Montellano}
+
+
+\begin{document}
+\maketitle
+
+\section*{Introduction}
+
+I always wanted to open a coffee place, but the rent prices in Munich are extremely high. Therefore, I need to select a Borough which satisfies my limitations:
+
+
+\begin{itemize}
+	\item where a coffee would be a popular local,
+	\item the rent prices are low,
+	\item and the density of population is enough to sustain an additional coffee place.  
+\end{itemize}
+
+Be choosing a Borough with the lower rent prices, the highest expense in any food local (the rent) is reduced. By choosing the a place where the inhabitants do actually frequent coffee places the risk of the opening is reduced, and therefore the stakeholder that support financially the opening of the coffee place are more willing to give th financial funds for this enterprise.
+
+\section*{Data}
+A table with date of the Boroughs in Munich can be found at \url{https://de.wikipedia.org/wiki/Stadtbezirke_M\%C3\%BCnchens}. This table includes name of eac Borough (Stadtbezirk), surface area in km$^2$ (Fl\"ache), inhabitants (Einwohner), density of population per km$^2$ (Dichte) and percentage of foreigners (Ausl\"ander). This table give us information about the density of population which is one of the parameters we need. Additionally we can analyze if the other parameters given are correlated with the success of coffee places in each Borough.
+
+The second point for opening a coffee place is to find the lowest possible rent prices as it usually the highest expense in any food related local. The data related to the rent prices for each Borough of Munich can be obtaine from a well-known real state company of Munich which offers this information in their webpage \url{https://suedbayerische-immobilien.de/Mietpreise-Muenchen-Stadtteile}.
+
+Finally, it is needed to find the geographical location and extension of each borough of Munich. THis data can be retrieved for each Borough from a GeoJSON file in \url{https://stekhn.carto.com/tables/munich/public/map}.
+
+In order to find out the most popular venues in each borough Foursquare can be used. It is the particular interest of this work to identify the boroughs where a coffee is between the most popular places. However, since Foursquare is not very popular in Germany the data retrieved might not be as big as expected.
+
+Using all of this Information it should be possible to find the best Borough where a new coffee place could present the highest probability to succeed.
+
+\section*{Methodology}
+
+
+\section*{Results}
+
+
+\section*{Discussion}
+
+
+\section*{Conclusion}
+
+\end{document}          
